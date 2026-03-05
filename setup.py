@@ -7,7 +7,7 @@ setup(
     packages=['fastmri_prostate', 'fastmri_prostate_classification', 'DL_reconstruction'],
     install_requires=[
         'h5py==3.7.0',
-        'numpy==1.23.5',
+        'numpy>=1.23.5',
         'scikit-image==0.19.2',
         'torchvision>=0.8.1',
         'torch>=1.8.0',
