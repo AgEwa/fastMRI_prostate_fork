@@ -4,6 +4,7 @@ setup(
     name='fastMRI Prostate',
     version='1.0',
     description='A large scale dataset and reconstruction script of both raw prostate MRI measurements and images',
+    packages=['fastmri_prostate', 'fastmri_prostate_classification', 'DL_reconstruction'],
     install_requires=[
         'h5py==3.7.0',
         'numpy==1.23.5',
